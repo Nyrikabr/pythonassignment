@@ -2,9 +2,18 @@ I am learning git.
 
 Copied from github:
 echo "# pythonassignment" >> README.md
+
+1st time
 git init
 git add learngit.txt
 git add README.md
+git add . 
 git commit -m "first commit"
 git remote add origin https://github.com/Nyrikabr/pythonassignment.git
+git push -u origin master
+
+2nd time
+git add newfile.txt
+git add . 
+git commit -m "second commit"
 git push -u origin master
